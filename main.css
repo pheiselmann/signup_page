@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box
+}
+
+body {
+  background-color: #007399;
+  font-family: 'Roboto', helvetica, sans-serif;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    height: 35px;
+    margin-top: 30px;
+}
+
+main {
+ width: 400px;
+ background-color: white;
+ margin-top: 30px;
+ margin-right: auto;
+ margin-left: auto;
+ padding-right: 40px;
+ padding-left: 40px;
+ border-radius: 3px;
+  
+}
+
+.signup-form fieldset {
+  border: none;
+  padding-left: 0;
+}
+
+.signup-form legend {
+  display: block;
+  text-align: center;
+ 
+  padding: 40px;
+  font-size: 30px;
+  color: #666666;
+}
+
+.signup-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.signup-form input  {
+  height: 55px;
+  width: 320px;
+  border: 2px solid lightgrey;
+  padding: 15px;
+  margin-bottom: 10px;
+
+}
+
+
+.signup-form button {
+  height: 55px;
+  width: 320px;
+  border: 2px solid lightgrey;
+  padding: 15px;
+  margin-bottom: 5px;
+  color: white;
+  background-color: #00FF00;
+  font-size: 15px;
+}
+
+.signup-form button:hover {
+  background-color: #008000;
+}
+
+.forgot-password {
+  display: block;
+  text-align: center;
+  padding-bottom: 25px;
+  text-decoration: none;
+  font-size: 10px;
+  color: grey;
+  
+}
+
+footer, .log-in {
+  padding-top: 10px;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+}
+
+.signup-forminput::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: gray;
+}
+
+.signup-form input::-moz-placeholder { /* Firefox 19+ */
+  color: gray;
+}
+
+.signup-form input:-ms-input-placeholder { /* IE 10+ */
+  color: gray;
+}
+
+.signup-form input:-moz-placeholder { /* Firefox 18- */
+  color: gray;
+}

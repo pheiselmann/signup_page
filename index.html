@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Signup page exercise</title>
+	<meta charset="utf-8" description="Thinkful signup exercise">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+  <section class="analogsea-logo"><img class="logo" src="analogsea-logo.png"></section>
+<main>
+  <form class='signup-form' action="/signup/" method='post'>
+     
+    <fieldset name="signup">
+      
+      <legend>Sign up</legend>
+      <label for="email">Email</label>
+        <input placeholder='foo@bar.com' type="email" name='email' id='email' required/>
+
+      <label for="password">Password</label>
+      <input type="password" name='password' id='password' placeholder='1234password' required/>
+
+    </fieldset>
+
+    <button type='submit'>Sign up</button>
+    
+    <a class="forgot-password" href="/forgot-password/new">Forgot password?</a>
+  </form>
+  </main>
+  <footer>Already have an account? <a class="log-in" href="/login">Log in</a></footer>
+</body>
+</html>
